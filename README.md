@@ -7,6 +7,12 @@ We study the effect of sampling using state-of-the-art graph neural networks for
 We expand and show all results here:
 ![All results of table](figures/all_results.png)
 
+Furthermore, we performed hyperparameter tunining using PinSAGESampler with ratios `0.2` and `0.5`. HP is the hyperparameter tuned method and Base is the method tuned on the full graph:
+![Hyperparameter tuning](figures/hp_tuning.png)
+
+For completeness, we also show the methods performance with ratio `0.05` and using the TemporalSampler compared to the naive TopPop method:
+![TopPop comparison](figures/toppop_comparison.png)
+
 
 # Requirements
 The following applications must be installed on your system.
