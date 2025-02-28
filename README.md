@@ -4,7 +4,9 @@ Please reference our work if using it in other projects.
 We study the effect of sampling using state-of-the-art graph neural networks for inductive recommender systems as illustrated in the figure below.
 ![Graph sampling](figures/sampling_example.png)
 
-We expand and show all results here:
+Please find the extended work [here](limits_of_graph_samplers_ext.pdf).
+
+We expand and show all results:
 ![All results of table](figures/all_results.png)
 
 Furthermore, we performed hyperparameter tunining using PinSAGESampler with ratios `0.2` and `0.5`. HP is the hyperparameter tuned method and Base is the method tuned on the full graph:
